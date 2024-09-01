@@ -5,11 +5,11 @@ The goal is to accurately predict the number of taxi rides in a city on an hourl
 
 **Data Preprocessing**
 
-  -*Time Series Decomposition*: Break down the historical taxi ride data into systematic and random components (trend, seasonality, and noise).
+  - *Time Series Decomposition*: Break down the historical taxi ride data into systematic and random components (trend, seasonality, and noise).
 
-  -*Feature Engineering*: Create time-based features (hour of the day, day of the week, etc.), weather-related features (temperature, precipitation), and event-based features (holidays, major events).
+  - *Feature Engineering*: Create time-based features (hour of the day, day of the week, etc.), weather-related features (temperature, precipitation), and event-based features (holidays, major events).
 
-  -*Normalization*: Apply normalization techniques to scale the features, aiding in model performance and convergence speed.
+  - *Normalization*: Apply normalization techniques to scale the features, aiding in model performance and convergence speed.
 
 **Model Selection and Training**
 
