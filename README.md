@@ -13,33 +13,33 @@ The goal is to accurately predict the number of taxi rides in a city on an hourl
 
 **Model Selection and Training**
 
-  -*Model Choice*: Employ a combination of models to handle different aspects of the time series data. Use ARIMA or SARIMA for capturing trends and seasonal effects, and Random Forest or Gradient Boosting Machines for integrating external factors like weather and events.
+  - *Model Choice*: Employ a combination of models to handle different aspects of the time series data. Use ARIMA or SARIMA for capturing trends and seasonal effects, and Random Forest or Gradient Boosting Machines for integrating external factors like weather and events.
 
-  -*Parameter Tuning*: Use cross-validation and grid search techniques to fine-tune hyperparameters and optimize model performance.
+  - *Parameter Tuning*: Use cross-validation and grid search techniques to fine-tune hyperparameters and optimize model performance.
 
-  -*Ensemble Techniques*: Combine predictions from multiple models to improve accuracy and robustness, using methods like weighted averaging or stacking.
+  - *Ensemble Techniques*: Combine predictions from multiple models to improve accuracy and robustness, using methods like weighted averaging or stacking.
 
 **Evaluation**
 
-  -*Backtesting*: Simulate model performance on historical data to gauge effectiveness before making future predictions.
+  - *Backtesting*: Simulate model performance on historical data to gauge effectiveness before making future predictions.
 
-*Performance Metrics*: Evaluate using metrics suitable for regression tasks, such as RMSE (Root Mean Square Error) or MAE (Mean Absolute Error), to measure prediction accuracy against actual values.
+  - *Performance Metrics*: Evaluate using metrics suitable for regression tasks, such as RMSE (Root Mean Square Error) or MAE (Mean Absolute Error), to measure prediction accuracy against actual values.
 
 **Challenges and Insights**
 
-*Data Sparsity*: Address gaps or anomalies in ride data (e.g., during extreme weather events) which can distort model training.
+  - *Data Sparsity*: Address gaps or anomalies in ride data (e.g., during extreme weather events) which can distort model training.
 
-*Adaptability*: Ensure models can adapt to new trends or sudden changes in ride patterns, possibly by retraining models periodically with recent data.
+  - *Adaptability*: Ensure models can adapt to new trends or sudden changes in ride patterns, possibly by retraining models periodically with recent data.
 
-*Computational Complexity*: Manage the trade-off between model complexity and computational feasibility, especially when processing large datasets or deploying models in real-time scenarios.
+  - *Computational Complexity*: Manage the trade-off between model complexity and computational feasibility, especially when processing large datasets or deploying models in real-time scenarios.
 
 **Tools and Libraries Used**
 
-~Python~: Primary programming language due to its rich ecosystem of data science libraries.
-Pandas and NumPy: For data manipulation and numerical operations.
-Statsmodels: For ARIMA/SARIMA implementations.
-Scikit-learn: For machine learning models and cross-validation.
-XGBoost: For implementing Gradient Boosting Machines.
+  1. Python: Primary programming language due to its rich ecosystem of data science libraries.
+  2. Pandas and NumPy: For data manipulation and numerical operations.
+  3. Statsmodels: For ARIMA/SARIMA implementations.
+  4. Scikit-learn: For machine learning models and cross-validation.
+  5. XGBoost: For implementing Gradient Boosting Machines.
 By following this structured approach, the solution aims to provide accurate, robust predictions of hourly taxi ride demands, leveraging a comprehensive set of tools and methodologies to tackle the complex nature of time series forecasting.
 
 
